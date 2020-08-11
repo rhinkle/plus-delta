@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "plus-delta"
+    }
+  },
+  "defaultProject": "plus-delta",
+  "cli": {
+    "analytics": "124a4c17-f3f2-4bad-90d9-2f9761c2d3fc"
+  }
 }
