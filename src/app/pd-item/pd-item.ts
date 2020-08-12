@@ -1,6 +1,6 @@
 export enum FeedbackTypes {
-  Plus,
-  Delta
+  Plus = 'Plus',
+  Delta = 'Delta'
 }
 
 export class PdItem {

@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
-import {ItemService} from './item.service';
-import {FeedbackTypes, PdItem} from './pd-item';
+import {PdItemService} from './pd-item/pd-item.service';
+import {FeedbackTypes, PdItem} from './pd-item/pd-item';
 
 @Component({
   selector: 'app-root',
@@ -8,18 +8,9 @@ import {FeedbackTypes, PdItem} from './pd-item';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  public title = 'plus-delta';
   public items: PdItem[];
 
-  constructor(private itemService: ItemService) {
+  constructor(private itemService: PdItemService) {
     this.items = this.itemService.getItems();
-  }
-
-  public listDeltas(): PdItem[]{
-    return this.items.filter((item) => item.feedbackType = FeedbackTypes.Delta);
-  }
-
-  public listPlus(): PdItem[]{
-    return this.items.filter((item) => item.feedbackType = FeedbackTypes.Plus);
   }
 }

@@ -1,0 +1,8 @@
+<div *ngIf="pdItems" class="pure-g">
+  <div class="pure-u-1-2 pdList">
+    <app-pd-list title="Plus" [pdItems]="pdItems | filterDelta"></app-pd-list>
+  </div>
+  <div class="pure-u-1-2 pdList">
+    <app-pd-list title="Delta" [pdItems]="pdItems | filterPlus"></app-pd-list>
+  </div>
+</div>
