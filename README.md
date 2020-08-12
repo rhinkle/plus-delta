@@ -15,8 +15,8 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 ## Todo
 * ~~Install Normlize.css~~
 * ~~Create header~~
-* install new fonts
-* install a grid framework
+* ~~install new fonts~~
+* ~~install a grid framework~~
 * create plus / delta layout
 * create "new plus/delta" feature
 
