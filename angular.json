@@ -29,7 +29,6 @@
             ],
             "styles": [
               "node_modules/normalize.css/normalize.css",
-              "node_modules/purecss/build/grids-min.css",
               "src/styles.scss"
             ],
             "scripts": []
